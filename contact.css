@@ -3,6 +3,10 @@
     width:100%;
 }
 
+body {
+    background:#000;
+}
+    
 main {
     background-image :url(Images/sbgi.jpeg),linear-gradient(#7fe6e9,#f579f5);
     background-blend-mode: luminosity;
