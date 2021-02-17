@@ -1,0 +1,92 @@
+main {
+    background-image :url(Images/sbgi.jpeg),linear-gradient(#fdfa69,#86291979);
+    background-blend-mode: luminosity;
+    min-height:100vh;
+    background-size: cover,no-repeat;
+    padding-bottom: 5%;
+}
+
+.navbar-dark,bg-dark {
+    position: fixed;
+    width:100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;  
+    position: relative;
+    background:rgb(10, 10, 10);
+    text-align: center;
+    padding:13px 0;
+}
+
+.m-title {
+    font-size :8vh;
+    padding:80px;
+    padding-bottom:0;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: white 5px 5px 5px;
+   
+}
+
+footer {
+    color:rgb(196, 196, 196);
+    font-size:0.875rem;
+    position: absolute,fixed;
+    bottom: 0; 
+}
+
+h1 {
+    font-size :8vh;
+    padding:80px;
+    padding-bottom:2%;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: white 5px 5px 5px;
+}
+
+h2 {
+    padding-left :10vh;
+}
+
+.item {
+    border: rgb(56, 56, 56) 3px solid;
+    font-size:20px;
+    background: rgb(255, 255, 255);
+    color:rgb(36, 36, 36);
+    margin: 5px 0 10px 0 ;
+    padding:30px 10px 15px 15px;
+    text-align:center;
+    border-radius:10px;
+    transition-duration:0.3s;
+}
+
+.item:hover {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
+.container {
+    display :grid;
+    gap:26px;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: 50px;
+}
+
+.cont {
+    background: rgb(224, 224, 224);
+    padding: 0.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.c-title {
+    font-size: 50px;
+    padding:25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: white 5px 5px 5px;
+}

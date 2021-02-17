@@ -1,0 +1,51 @@
+#home {
+    background-image :url(Images/sbgi.jpeg),linear-gradient(#69dbfd,#166ff5);
+    background-blend-mode: luminosity;
+    min-height:100vh;
+    background-size: cover,no-repeat;
+}
+
+.navbar-dark,bg-dark {
+    position: fixed;
+    width:100%;
+}
+
+.maintitle {
+    font-size: 14vh;
+    padding: 30vh 20vw ;
+    color: #fff;
+    text-shadow: black 7px 7px 7px;
+    /* transform: rotate(-10deg); */
+    /* text-align: center;
+    text-shadow: 7px 7px 5px rgb(221, 221, 241);
+    border */
+}
+
+.maintitle h1 {
+    font-size:9vw;
+    padding:20vh 0 0 5vw;
+}
+
+.main {
+    font-size: 14vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.main2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:8vh;
+    padding:2vw 0 0 8vw;
+}
+
+
+.wrapper {
+    background:rgb(10, 10, 10);
+    text-align: center;
+    padding:13px 0;
+}
+
+footer p {
+    color:rgb(196, 196, 196);
+    font-size:0.875rem;
+} 
