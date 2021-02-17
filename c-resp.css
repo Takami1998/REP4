@@ -1,0 +1,28 @@
+@media (max-width: 1000px) {
+  main {
+    overflow :hidden;
+  }
+
+  h3 {
+    padding :0 5vw 0 5vw
+  }
+} 
+
+@media(max-width: 670px) {
+  main {
+    overflow: hidden;
+  }
+  
+  h3 {
+    padding :0 5vw 0 5vw
+  }
+  .page-title {
+    font-size:50px;
+  }
+   textarea {
+     width:80%;
+   }
+   .button {
+     margin:0 60% 18px;
+   }
+}

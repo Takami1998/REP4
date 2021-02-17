@@ -1,0 +1,113 @@
+.navbar-dark,bg-dark {
+    position: fixed;
+    width:100%;
+}
+
+main {
+    background-image :url(Images/sbgi.jpeg),linear-gradient(#7fe6e9,#f579f5);
+    background-blend-mode: luminosity;
+    min-height:100%;
+    background-size: cover,no-repeat;
+}
+
+main h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    font-weight: bold;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8vh;
+    padding-top: 80px;
+    text-align :center;
+    text-shadow: white 5px 5px 5px;
+}
+
+.con-form {
+    background-color: rgba(0, 0, 0, 0.589);
+    border :3px white solid;
+    border-radius:10px;
+    margin:3vw;
+    box-shadow: rgb(187, 187, 187) 10px 10px 10px
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    color:azure;
+    font-size:1.125rem;
+    margin-left:10vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    display:block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background:rgba(255,255,255,.5); 
+    border:1px #fff solid; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 7vw;
+    font-size:1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width:240px;
+}
+
+textarea {
+    /* resize:none; */
+    width:100%;
+    max-width:75vw;
+    height: 8rem;
+}
+
+input[type="sumbit"] {
+    border: none;
+    cursor:pointer;
+    line-height:1;
+
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;  
+    position: relative;
+    background:rgb(10, 10, 10);
+    text-align: center;
+    padding:13px 0;
+}
+
+footer {
+    color:rgb(196, 196, 196);
+    font-size:0.875rem;
+    position: absolute,fixed;
+    bottom: 0; 
+}
+
+.button {
+    margin: 1vw 1vw 1vw 75%;
+    border :5px solid rgba(0, 29, 156, 0.548);
+    border-radius: 20px;
+    /* position: relative;
+    display: inline-block; */
+    font-weight: bold;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+}
+
+.button:hover {
+    background: #00bcd4;
+    color: white;
+}

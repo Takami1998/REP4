@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+.navbar-dark,bg-dark {    
+    position: fixed;
+    width:100%;
+}
+
+body {
+    background: rgb(11, 11, 11);
+}
+
+main {
+    background-image :url(Images/sbgi.jpeg),linear-gradient(#0d10b8,#dbd03573);
+    background-blend-mode: luminosity;
+    min-height:115vh;
+    background-size: cover;
+}
+
+.contents {
+    display: grid;
+    padding: 30vh 5vw;
+    grid-template-columns: 90fr 90fr 90fr 90fr;
+    gap:50px;
+}
+
+.works {
+    background:#0bd;
+    color:#fff;
+    padding:10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;  
+    position: relative;
+    background:rgb(10, 10, 10);
+    text-align: center;
+    padding:13px 0;
+}
+
+footer {
+    color:rgb(196, 196, 196);
+    font-size:0.875rem;
+    position: absolute,fixed;
+    bottom: 0; 
+}
+
+h1 {
+    font-size :8vh;
+    padding:80px;
+    padding-bottom:0;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: white 5px 5px 5px;
+}
+
+section {
+    color :rgb(195, 194, 194);
+    padding:0.5em 5vh 0 5vh;
+}
+
+/* ul li */
+.name {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :5%;
+    margin-bottom: 5px;
+}
+
+
+.age {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :5%;
+    margin-bottom:  5px;
+}
+
+.born {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :9%;
+    margin-bottom: 5px;
+}
+
+.skill {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :7%;
+    margin-bottom: 5px;
+}
+
+.lang {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :5%;
+    margin-bottom: 5px;
+}
+
+.Java {
+    padding-bottom: 2.5vh;
+}
+
+.tool {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :11%;
+    margin-bottom: 5px;
+}
+
+.vsc {
+    padding-bottom: 2.5vh;
+}
+
+.quali {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :9%;
+    margin-bottom: 5px;
+}
+
+.En {
+    padding-bottom: 2.5vh;
+  
+}
+
+.PR {
+    font-size:2vw;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width :7%;
+    margin-bottom: 5px;
+}

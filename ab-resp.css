@@ -1,0 +1,130 @@
+@media (max-width: 1000px) {
+  body {
+    overflow:hidden;
+    overflow-y : scroll;
+  }
+
+  h1 {
+    font-size: 8vh;
+    padding-top: 80px;
+  }
+
+  section {
+    margin-right:1em;
+    margin-left: -0.5em;
+  }
+  .name {
+    width :21%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+
+  .age {
+    width :21%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .born {
+    width :38%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .skill {
+    width :30%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .lang {
+    width :21%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .tool {
+    width :48%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .quali {
+    width :40%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .PR {
+    width :35%;
+    font-size:25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size:5vh;
+    padding-top :80px;
+  }
+
+  section {
+    margin-right:1em;
+    margin-left: -0.5em;
+  }
+  .name {
+    width :21%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+
+  .age {
+    width :21%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .born {
+    width :38%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .skill {
+    width :30%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .lang {
+    width :21%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .tool {
+    width :48%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .quali {
+    width :40%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .PR {
+    width :35%;
+    font-size:20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+}
